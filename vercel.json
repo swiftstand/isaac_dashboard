@@ -7,9 +7,5 @@
           "distDir": "build"
         }
       }
-    ],
-    "scripts": {
-      "build": "bower install && gulp"
-    }
+    ]
   }
-  

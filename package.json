@@ -7,7 +7,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install",
+    "postinstall": "npm run bower-install",
+    "bower-install": "npx bower install",
     "build": "npx gulp scripts && npx gulp sass && npx gulp sass-minify"
   },
   "repository": {
@@ -36,6 +37,7 @@
   },
   "homepage": "https://github.com/puikinsh/gentelella#readme",
   "devDependencies": {
+    "bower": "^1.8.14",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",

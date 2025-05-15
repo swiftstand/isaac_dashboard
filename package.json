@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx bower install && npx gulp"
+    "build": "pwd && ls -la && npx bower install && npx gulp --gulpfile ../gulpfile.js"
   },
   "repository": {
     "type": "git",

@@ -2,9 +2,10 @@
   "name": "gentelella",
   "homepage": "https://colorlib.com/polygon/gentelella/index.html",
   "authors": [
-    "isaac"
+    "Aigars Silkalns",
+    "Christian Esperar"
   ],
-  "description": "isaac dashboard for app monitoring",
+  "description": "Gentelella Admin is a free to use Bootstrap admin template",
   "keywords": [
     "css",
     "js",
@@ -47,7 +48,6 @@
     "normalize-css": "^4.1.1",
     "mjolnic-bootstrap-colorpicker": "bootstrap-colorpicker#^2.3.3",
     "jquery.inputmask": "^3.3.1",
-    
     "jquery-knob": "^1.2.13",
     "cropper": "^2.3.0",
     "validator": "https://github.com/yairEO/validator.git#^3.3.5",
@@ -83,7 +83,5 @@
     "jquery": "^2.2.3",
     "fastclick": "^1.0.6",
     "bootstrap": "^4.3.1"
-  },
-  "main": "",
-  "private": true
+  }
 }

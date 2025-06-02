@@ -2,16 +2,15 @@
   "name": "gentelella",
   "version": "2.0-beta2",
   "description": "Gentelella Admin is a free to use Bootstrap admin template",
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install -g bower && npm install && npx bower install && npx gulp"
+    "build": "npm install -g bower && bower install && npx gulp scripts && npx gulp sass && npx gulp sass-minify",
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swiftstand/isaac_dashboard.git"
+    "url": "git+https://github.com/puikinsh/gentelella.git"
   },
   "keywords": [
     "css",
@@ -34,6 +33,10 @@
     "url": "https://github.com/puikinsh/gentelella/issues"
   },
   "homepage": "https://github.com/puikinsh/gentelella#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "bower": "^1.8.14"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",

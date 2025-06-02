@@ -4,7 +4,7 @@
   "description": "Gentelella Admin is a free to use Bootstrap admin template",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install -g bower && bower install && npx gulp scripts && npx gulp sass && npx gulp sass-minify",
+    "build": "npm install && bower install && npx gulp build",
     "start": "node server.js",
     "postinstall": "bower install"
   },
@@ -35,15 +35,16 @@
   "homepage": "https://github.com/puikinsh/gentelella#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "bower": "^1.8.14"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "bower": "^1.8.14",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^2.0.0",
-    "gulp-ruby-sass": "^4.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.1",
     "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
   }
 }
